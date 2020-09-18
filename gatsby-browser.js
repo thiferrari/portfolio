@@ -1,1 +1,1 @@
-import'bootstrap/dist/css/bootstrap.min.cssnpmsta'
+import'bootstrap/dist/css/bootstrap.min.css'
