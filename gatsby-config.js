@@ -33,16 +33,16 @@ module.exports = {
       options: {
         fonts: [
           {
-            family: `Roboto Mono`,
-            variants: [`400`, `700`]
+            family: `Oswald`,
+            subsets: [`latin`],
           },
           {
-            family: `Roboto`,
-            subsets: [`latin`]
+            family: `Open Sans`,
+            variants: [`400`, `700`]
           },
         ],
       },
-    }
+    },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
