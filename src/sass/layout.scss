@@ -1,5 +1,30 @@
 @import "_content";
+@import "_footer";
+
+a { 
+    color: #ffffff;
+    text-decoration: none;
+    &:hover {
+        text-decoration: none;
+        color: #ffffff;
+    }
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+}
 header {
-    background-color: black;
+    color:#ffffff;
+    background-color: #00692f;
     padding: 20px 20px;
+    
+}
+
+footer {
+    width: 100%;
+    padding: 80px;
+    background-color: #000000;
+    p {
+        color: #fff;
+    }
 }
