@@ -31,6 +31,13 @@ const Layout = ({ children }) => {
         <main>{children}</main>
 
       </div>
+      <div className="base-links container-fluid">
+        <div className="container">
+          dsds
+        </div>
+
+
+      </div>
       <footer>
         <div className="container">
           <p>Todos os direitos reservados | duzerocomunica.com.br</p>
