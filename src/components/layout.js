@@ -26,7 +26,6 @@ const Layout = ({ children }) => {
   return (
     <>
       <Header siteTitle={data.site.siteMetadata.title} />
-      <Header />
       <div className="container">
         <main>{children}</main>
 
@@ -35,7 +34,9 @@ const Layout = ({ children }) => {
         <div className="container">
           dsds
         </div>
-
+      {/*
+        <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
+      */}
 
       </div>
       <footer>

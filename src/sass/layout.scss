@@ -1,6 +1,8 @@
 @import "_fonts";
-@import "_content";
+//@import "_content";
 @import "_footer";
+@import "_header";
+
 
 a { 
     color: #ffffff;
@@ -14,12 +16,19 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-weight: lighter;
 }
-header {
-    color:#ffffff;
-    background-color: #00692f;
-    padding: 20px 20px;
-    
+
+.home {
+    h1 {
+        font-size: 108px;
+        padding-right: 456px;
+        padding: 100px 300px 120px 0;
+        line-height: 1;
+        text-transform: uppercase;
+    }
 }
+
+
+
 .base-links {
     padding: 30px;
     background-color: dimgrey;
