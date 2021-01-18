@@ -34,5 +34,5 @@
       }, timeout);
   }
   
-  
+  window.location.replace("http://pt.stackoverflow.com");
 }());
