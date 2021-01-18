@@ -1,50 +1,49 @@
 header {
   color:#ffffff;
-  background-color: #00692f;
+  background-color: #002069;
   padding: 20px 20px;
   .logo {
       width: 220px;
   }
- }
-
-
-.container-topo {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-
-  .menu {
-
-      ul {
-          display: -webkit-box;
-          display: -ms-flexbox;
-          display: flex;
-          -webkit-box-align: center;
-          -ms-flex-align: center;
-          align-items: center;
-          list-style: none;
-          margin: 0;
-          li {
-              &:not(:first-child) {
-                  margin-left: 75px;
-              }
-              a {
-                  position: relative;
-                  text-decoration: none;
-                  font-size: 19px;
-                  font-weight: bold;
-                  color: #fafcff;
-                  display: block;
-                  letter-spacing: .5px;
-                  line-height: 1;
-              }
-          }
-      } 
+  .container-topo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  
+    .menu {
+        ul {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            list-style: none;
+            margin: 0;
+            li {
+                &:not(:first-child) {
+                    margin-left: 75px;
+                }
+                a {
+                    position: relative;
+                    text-decoration: none;
+                    font-size: 19px;
+                    font-weight: bold;
+                    color: #fafcff;
+                    display: block;
+                    letter-spacing: .5px;
+                    line-height: 1;
+                }
+            }
+        } 
+    }
   }
 }
+
+

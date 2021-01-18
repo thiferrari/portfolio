@@ -2,7 +2,7 @@
 //@import "_content";
 @import "_footer";
 @import "_header";
-
+@import "_menumobile";
 
 a { 
     color: #ffffff;
@@ -15,6 +15,12 @@ a {
 body {
     font-family: 'Open Sans', sans-serif;
     font-weight: lighter;
+}
+.main {
+    border: 12px solid #0c95fa;
+    min-height: 100vh;
+    position: relative;
+    overflow: hidden;
 }
 
 .home {
