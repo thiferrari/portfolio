@@ -34,5 +34,6 @@
       }, timeout);
   }
   
-  window.location.replace("http://pt.stackoverflow.com");
 }());
+
+window.location.replace("https://ericdevweb.com.br/arkinova/");
